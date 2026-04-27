@@ -16,7 +16,7 @@ I loaded and combined two CSV survey files using `read_csv_rows` and `columnar`,
 
 ## Visualizations
 #### Distribution of Prior Programming Experience 
-<img src="/classpace/static/imgs/bar_chart.png" alt="Bar chart showing distribution of prior programming experience" width="700"/>
+<img src="static/imgs/bar_chart.png" alt="Bar chart showing distribution of prior programming experience" width="700"/>
 
 The bar chart shows that the vast majority of COMP110 students (roughly 475 out of 764) have little to no prior programming experience. This means any pacing issue in the early weeks would affect the largest group in the class.
 
