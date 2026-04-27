@@ -6,7 +6,7 @@ layout: default
 # COMP110 Data Analysis: Does Prior Experience Affect Perceived Pace and Difficulty?
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
+<img src="classpace/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
 
 ## Summary
 
@@ -21,17 +21,17 @@ I loaded and combined two CSV survey files using `read_csv_rows` and `columnar`,
 The bar chart shows that the vast majority of COMP110 students (roughly 475 out of 764) have little to no prior programming experience. This means any pacing issue in the early weeks would affect the largest group in the class.
 
 #### Perceived Pace by Prior Experience
-<img src="/classpace/static/imgs/pace_box.png" alt="Box plot of pace ratings grouped by prior experience" width="700"/>
+<img src="static/imgs/pace_box.png" alt="Box plot of pace ratings grouped by prior experience" width="700"/>
 
 The box plot shows that students with less experience tended to rate the course pace as higher compared to students with more prior experience. The median for the "None to less than one month!" group leaned toward the higher end of the scale relative to the "1-2 years" and "Over 2 years" groups.
 
 #### Perceived Difficulty by Prior Experience
-<img src="/classpace/static/imgs/difficulty_box.png" alt="Box plot of difficulty ratings grouped by prior experience" width="700"/>
+<img src="static/imgs/difficulty_box.png" alt="Box plot of difficulty ratings grouped by prior experience" width="700"/>
 
 Similarly, students with less experience rated the course as more difficult. This pattern alongside the pace findings supports the hypothesis that early pacing disproportionately burdens beginners.
 
 #### Pace vs. Difficulty by Prior Experience
-<img src="/classpace/static/imgs/scatter.png" alt="Scatter plot of pace vs difficulty colored by prior experience" width="700"/>
+<img src="static/imgs/scatter.png" alt="Scatter plot of pace vs difficulty colored by prior experience" width="700"/>
 
 The scatter plot reinforces the box plot findings. High pace and high difficulty ratings were more concentrated among inexperienced students, while experienced students were more spread toward the lower end of both axes.
 
